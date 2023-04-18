@@ -34,10 +34,10 @@ section {
 }
 
 img {
-  flex: 1 0 50%;
-  object-fit: cover;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+    flex: 1 0 50%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .category {
@@ -75,7 +75,7 @@ button {
     padding: 20px;
     border-style: none;
     border-radius: 10px;
-    align-items: center;
+
     width: 100%;
 }
 button:hover {
@@ -102,7 +102,6 @@ button:active {
 @media only screen and (max-width: 600px) {
     section {
         flex-direction: column;
-        width: 400px;
     }
 
     h1 {
@@ -122,9 +121,9 @@ button:active {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0px;
-      }
-      .cart-icon {
+    }
+    .cart-icon {
         width: 15px;
         height: 15px;
-      }
-  }
+    }
+}
